@@ -1,7 +1,23 @@
 html, body {
+  text-align: center;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 canvas {
   display: block;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-size: 18px;
+}
+p {
+  text-align: center; 
+  font-size: 16px;
 }
