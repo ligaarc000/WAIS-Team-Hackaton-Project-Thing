@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   justify-content: center;
+  background-color:#FCF5E5;
 }
 canvas {
   display: block;
