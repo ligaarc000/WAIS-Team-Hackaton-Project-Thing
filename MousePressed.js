@@ -1,52 +1,97 @@
 function mousePressed(){
 console.log('test')
-  if (Slide==0){
-  //Russo-Japanese War (1904):
 
+if (Slide==0){
+  //Russo-Japanese War (1904):
+  //ellipse(350,225,75,75)
 }
 if (Slide==1){
   //Fall of the Qing dynasty(1911):
+  //ellipse(50,225,85,85)
+  
   //First balkan War (1912): Second balkan war (1913):
+  //ellipse(635,222,25,25)  
+  
   //Assasination of Archduke Franz Ferdinand(1914):
-  //World War One(1914): 
+  //ellipse(615,210,20,20)  
+  
+  //World War One(1914): Treaty of versaille: (1919)
+  //ellipse(590,190,45,45)
+  
   //The Russian revolution(1917):The Russian civil war(1917):
-  //Treaty of versaille: (1919)
+  //ellipse(675,175,75,75)
+  
   //Treaty of san germaine: (1919)
+  //ellipse(675,250,50,50)
+  
 }
   if (Slide==2){
 //Treaty of Sevres: (1920)
+ //ellipse(485,145,40,40)   
+    
 //1920 Woman Suffrage: August 26 in Washington DC
+  //ellipse(245,160,30,30)   
+    
 //1921 July 1 Rise of chinese communists:
+  // ellipse(675,155,60,60) 
+    
 //1922: British Empire Shrinks
+   //ellipse(498,195,30,30) 
+    
 //1923: Great Kanto Earthquake
-//1924: From Lenin to Stalin
-//1925: Scopes Monkey Trial
+   //ellipse(750,165,30,30)  
+    
+// 1924: From Lenin to Stalin
+   // ellipse(525,115,45,45)   
+    
+// 1925: Scopes Monkey Trial //1929: Wall Street Crashes
+  // ellipse(220,160,25,25) 
+    
 //1927: Lindbergh Nonstop to Paris
+  // ellipse(435,135,20,20)   
+    
 //1928: Earhart Crosses Atlantic
-//1929: Wall Street Crashes
-//1930: Ho Chi Minh Rises in Vietnam
-
+  // ellipse(420,115,25,25)   
+    
 }
-
   if (Slide==3){
-//1930: Ho Chi Minh Rises in Vietnam
-//1931: Empire State Building Completed 
-//1933: FDR Elected
-//1933 Hitler Elected Chancellor
-//1934: Hitler Consolidates Power
-//1935: FDR Launches New Deal
+    //1930: Ho Chi Minh Rises in Vietnam
+  //ellipse(40,275,30,30) 
+    
+    //1932: Emu war
+  //ellipse(100,375,30,30)
+    
+//1931: Empire State Building Completed
+   //ellipse(420,215,20,20) 
+    
+//1933: FDR Elected //1935: FDR Launches New Deal
+   //ellipse(410,230,20,20)  
+    
+//1933 Hitler Elected Chancellor //1934: Hitler Consolidates Power
+   //ellipse(595,190,20,20)   
+    
 //1938: Anti-Semitism Surges
+//ellipse(615,190,20,20) 
+    
 //1939: World War II Starts
+//ellipse(575,202,28,28)     
+    
 }
   if (Slide==4){
 //1940: McDonald's Founded
-
+    //ellipse(330,235,20,20)
+    
+//1945: comunist republics established in soviet occupied territory after the end of World War 2....
+    //ellipse(630,195,45,45) 
+    
+    //1950: Korean war (sometimes thought of as the start of the cold war)
+    //ellipse(90,225,35,35) 
+    
 }
   if (Slide==5){
-  
 }
   if (Slide==6){
-  
+ 
 }
   if (Slide==7){
   
