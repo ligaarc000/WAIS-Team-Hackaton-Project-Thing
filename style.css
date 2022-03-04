@@ -10,9 +10,11 @@ canvas {
 }
 h1 {
   text-align: center;
+  font-family: Spectral, Verdana, sans-serif;
 }
 h3 {
   text-align: center;
+  font-style: italic;
 }
 h4 {
   text-align: center;
