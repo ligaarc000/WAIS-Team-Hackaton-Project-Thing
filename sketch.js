@@ -9,6 +9,7 @@ function setup() {
   Slide = Time_slider.value()
   img1 = loadImage("map1.jpg")
   img2 = loadImage("map2.jpg")
+  img3 = loadImage("map3.jpg")
   noLoop();
 }
 function Update() {
@@ -29,7 +30,7 @@ if (Slide==1){
   
 }
   if (Slide==2){
-  ellipse(50,50,120,100)
+  image(img3,0,0,width,height)
 }
   if (Slide==3){
   ellipse(50,50,150,100)
