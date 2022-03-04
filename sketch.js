@@ -48,6 +48,10 @@ function draw() {
 function Map() {
 if (Slide==0){
   image(img0,0,0,width,height)
+  //Russo-Japanese War (1904):
+  stroke(255,10,10)
+  fill(0,0,0,0)
+  ellipse(350,225,75,75)
 }
 if (Slide==1){
   image(img1,0,0,width,height)
