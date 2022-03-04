@@ -34,10 +34,13 @@ if (Slide==1){
 //1933: FDR Elected
 //1933 Hitler Elected Chancellor
 //1934: Hitler Consolidates Power
-
+//1935: FDR Launches New Deal
+//1938: Anti-Semitism Surges
+//1939: World War II Starts
 }
   if (Slide==4){
-  
+//1940: McDonald's Founded
+
 }
   if (Slide==5){
   
