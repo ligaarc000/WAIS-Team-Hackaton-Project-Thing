@@ -86,14 +86,12 @@ if (Slide==1){
    ellipse(750,165,30,30)  
 //1924: From Lenin to Stalin
    ellipse(525,115,45,45)   
-//1925: Scopes Monkey Trial
+//1925: Scopes Monkey Trial /1929: Wall Street Crashes
   ellipse(220,160,25,25) 
 //1927: Lindbergh Nonstop to Paris
   ellipse(435,135,20,20)   
 //1928: Earhart Crosses Atlantic
-  ellipse(420,115,25,25)     
-//1929: Wall Street Crashes
-    
+  ellipse(420,115,25,25)      
 }
   if (Slide==3){
   image(img3,0,0,width,height)
