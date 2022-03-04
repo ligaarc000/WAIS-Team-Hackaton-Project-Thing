@@ -46,7 +46,6 @@ function draw() {
 }
 
 function Map() {
-function Map() {
   strokeWeight(2)
   stroke(255,10,10)
   fill(0,0,0,0)
@@ -72,9 +71,46 @@ if (Slide==1){
 }
   if (Slide==2){
   image(img2,0,0,width,height)
+  strokeWeight(2)
+  stroke(255,10,10)
+  fill(0,0,0,0)
+//Treaty of Sevres: (1920)
+ ellipse(485,145,40,40)   
+//1920 Woman Suffrage: August 26 in Washington DC
+  ellipse(245,160,30,30)   
+//1921 July 1 Rise of chinese communists:
+   ellipse(675,155,60,60) 
+//1922: British Empire Shrinks
+   ellipse(498,195,30,30) 
+//1923: Great Kanto Earthquake
+   ellipse(750,165,30,30)  
+//1924: From Lenin to Stalin
+   ellipse(525,115,45,45)   
+//1925: Scopes Monkey Trial
+  ellipse(220,160,25,25) 
+//1927: Lindbergh Nonstop to Paris
+  ellipse(435,135,20,20)   
+//1928: Earhart Crosses Atlantic
+  ellipse(420,115,25,25)     
+//1929: Wall Street Crashes
+    
 }
-  if (Slide==3){
+ if (Slide==3){
   image(img3,0,0,width,height)
+    //1930: Ho Chi Minh Rises in Vietnam
+  ellipse(40,275,30,30) 
+    //1932: emu war
+  ellipse(100,375,30,30)
+//1931: Empire State Building Completed
+   ellipse(420,215,20,20) 
+//1933: FDR Elected //1935: FDR Launches New Deal
+   ellipse(410,230,20,20)  
+//1933 Hitler Elected Chancellor //1934: Hitler Consolidates Power
+   ellipse(595,190,20,20)   
+//1938: Anti-Semitism Surges
+ellipse(615,190,20,20) 
+//1939: World War II Starts
+ellipse(575,202,28,28)     
 }
   if (Slide==4){
   image(img4,0,0,width,height)
