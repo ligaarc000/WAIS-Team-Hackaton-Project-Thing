@@ -46,15 +46,29 @@ function draw() {
 }
 
 function Map() {
+function Map() {
+  strokeWeight(2)
+  stroke(255,10,10)
+  fill(0,0,0,0)
 if (Slide==0){
   image(img0,0,0,width,height)
   //Russo-Japanese War (1904):
-  stroke(255,10,10)
-  fill(0,0,0,0)
   ellipse(350,225,75,75)
 }
 if (Slide==1){
   image(img1,0,0,width,height)
+  //Fall of the Qing dynasty(1911):
+  ellipse(50,225,85,85)      
+  //First balkan War (1912): Second balkan war (1913):
+  ellipse(635,222,25,25)  
+  //Assasination of Archduke Franz Ferdinand(1914):
+  ellipse(615,210,20,20)  
+  //World War One(1914): Treaty of versaille: (1919)
+  ellipse(590,190,45,45)
+  //The Russian revolution(1917):The Russian civil war(1917):
+  ellipse(675,175,75,75)
+  //Treaty of san germaine: (1919)
+  ellipse(675,250,50,50)
 }
   if (Slide==2){
   image(img2,0,0,width,height)
