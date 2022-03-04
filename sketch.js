@@ -21,7 +21,7 @@ if (Slide==1){
   ellipse(50,50,100,100)
 }
   if (Slide==2){
-  ellipse(50,50,120,100)
+
 }
   if (Slide==3){
   ellipse(50,50,150,100)
