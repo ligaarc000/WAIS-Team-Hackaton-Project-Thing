@@ -16,13 +16,13 @@ function setup() {
   var y = (windowHeight - height) / 2;
   cnv.position(x, y);
   Time_slider = createSlider(0,10,0)
-  Time_slider.style("width","775px")
+  Time_slider.style("width","790px")
   Time_slider.input(Update)
   Slide = Time_slider.value()
   img0 = loadImage("map0.jpeg")
   img1 = loadImage("map1.jpg")
   img2 = loadImage("map2.jpeg")
-  img3 = loadImage("map3.jpg")
+  img3 = loadImage("map4.jpeg")
   img4 = loadImage("map4.jpeg")
   img5 = loadImage("map5.jpeg")
   img6 = loadImage("map6.jpeg")
@@ -95,7 +95,7 @@ if (Slide==1){
 //1929: Wall Street Crashes
     
 }
- if (Slide==3){
+  if (Slide==3){
   image(img3,0,0,width,height)
     //1930: Ho Chi Minh Rises in Vietnam
   ellipse(40,275,30,30) 
@@ -114,23 +114,37 @@ ellipse(575,202,28,28)
 }
   if (Slide==4){
   image(img4,0,0,width,height)
+//1940: McDonald's Founded
+    ellipse(330,235,20,20)
+//1945: comunist republics established in soviet occupied territory after the end of World War 2....
+    ellipse(630,195,45,45) 
+    //1950: Korean war (sometimes thought of as the start of the cold war)
+    ellipse(90,225,35,35) 
 }
   if (Slide==5){
   image(img5,0,0,width,height)
+    textSize(29)
+    text("WORK IN PROGRESS",350,200,150,150)
 }
   if (Slide==6){
   image(img6,0,0,width,height)
+    textSize(29)
+    text("Waiting for Updates",350,200,200,150)
 }
   if (Slide==7){
   image(img7,0,0,width,height)
+    text("Waiting for Updates",350,200,200,150)
 }
   if (Slide==8){
   image(img8,0,0,width,height)
+    text("Waiting for Updates",350,200,200,150)
 }
   if (Slide==9){
   image(img9,0,0,width,height)
+    text("Waiting for Updates",350,200,200,150)
 }
   if (Slide==10){
   image(img10,0,0,width,height)
+    text("Waiting for Updates",350,200,200,150)
 }
 }
