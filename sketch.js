@@ -13,20 +13,20 @@ var img10;
 function setup() {
   createCanvas(800, 500);
   Time_slider = createSlider(0,10,0)
-  Time_slider.style("width","400px")
+  Time_slider.style("width","790px")
   Time_slider.input(Update)
   Slide = Time_slider.value()
-  img0 = loadImage("map0.jpg")
+  img0 = loadImage("map0.jpeg")
   img1 = loadImage("map1.jpg")
-  img2 = loadImage("map2.jpg")
+  img2 = loadImage("map2.jpeg")
   img3 = loadImage("map3.jpg")
-  img4 = loadImage("map4.jpg")
-  img5 = loadImage("map5.jpg")
-  img6 = loadImage("map6.jpg")
-  img7 = loadImage("map7.jpg")
-  img8 = loadImage("map8.jpg")
-  img9 = loadImage("map9.jpg")
-  img10 = loadImage("map10.jpg")
+  img4 = loadImage("map4.jpeg")
+  img5 = loadImage("map5.jpeg")
+  img6 = loadImage("map6.jpeg")
+  img7 = img0
+  img8 = loadImage("map8.jpeg")
+  img9 = loadImage("map9.jpeg")
+  img10 = loadImage("map10.jpeg")
   noLoop();
 }
 function Update() {
@@ -36,6 +36,9 @@ Map()
 
 function draw() {
   background(239,228,213);
+  textSize(25)
+  textAlign(CENTER)
+  text('Move the Slider to start your journey through time!',300,200,200,150)
 }
 
 function Map() {
@@ -56,7 +59,7 @@ if (Slide==1){
   image(img4,0,0,width,height)
 }
   if (Slide==5){
-  image(img5,0,0,width,height))
+  image(img5,0,0,width,height)
 }
   if (Slide==6){
   image(img6,0,0,width,height)
