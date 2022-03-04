@@ -11,9 +11,12 @@ var img8;
 var img9;
 var img10;
 function setup() {
-  createCanvas(800, 500);
+  var cnv = createCanvas(800, 500);
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
   Time_slider = createSlider(0,10,0)
-  Time_slider.style("width","790px")
+  Time_slider.style("width","775px")
   Time_slider.input(Update)
   Slide = Time_slider.value()
   img0 = loadImage("map0.jpeg")
@@ -28,6 +31,7 @@ function setup() {
   img9 = loadImage("map9.jpeg")
   img10 = loadImage("map10.jpeg")
   noLoop();
+  createElement('h4','1900 &nbsp &nbsp &nbsp 1910 &nbsp &nbsp &nbsp 1920 &nbsp &nbsp &nbsp 1930 &nbsp &nbsp &nbsp 1940 &nbsp &nbsp &nbsp 1950 &nbsp &nbsp &nbsp 1960 &nbsp &nbsp &nbsp 1970 &nbsp &nbsp &nbsp 1980 &nbsp &nbsp &nbsp 1990 &nbsp &nbsp &nbsp 2000')
 }
 function Update() {
 Slide = Time_slider.value()
@@ -42,7 +46,6 @@ function draw() {
 }
 
 function Map() {
-  // first 5 archer maps
 if (Slide==0){
   image(img0,0,0,width,height)
 }
