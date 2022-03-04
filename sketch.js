@@ -30,7 +30,7 @@ if (Slide==1){
   ellipse(50,50,100,150)
 }
   if (Slide==5){
-  ellipse(50,50,100,150)
+  
 }
   if (Slide==6){
   ellipse(50,50,100,150)
