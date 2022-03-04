@@ -31,7 +31,7 @@ function setup() {
   img9 = loadImage("map9.jpeg")
   img10 = loadImage("map10.jpeg")
   noLoop();
-  createElement('h4','1900 &nbsp &nbsp &nbsp 1910 &nbsp &nbsp &nbsp 1920 &nbsp &nbsp &nbsp 1930 &nbsp &nbsp &nbsp 1940 &nbsp &nbsp &nbsp 1950 &nbsp &nbsp &nbsp 1960 &nbsp &nbsp &nbsp 1970 &nbsp &nbsp &nbsp 1980 &nbsp &nbsp &nbsp 1990 &nbsp &nbsp &nbsp 2000')
+  createElement('h4','1900 &nbsp &nbsp &nbsp &nbsp 1910 &nbsp &nbsp &nbsp &nbsp 1920 &nbsp &nbsp &nbsp &nbsp 1930 &nbsp &nbsp &nbsp &nbsp 1940 &nbsp &nbsp &nbsp &nbsp 1950 &nbsp &nbsp &nbsp &nbsp 1960 &nbsp &nbsp &nbsp &nbsp 1970 &nbsp &nbsp &nbsp &nbsp 1980 &nbsp &nbsp &nbsp &nbsp 1990 &nbsp &nbsp &nbsp &nbsp 2000')
 }
 function Update() {
 Slide = Time_slider.value()
