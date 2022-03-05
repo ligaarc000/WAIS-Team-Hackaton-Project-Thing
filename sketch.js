@@ -1,39 +1,4 @@
-var Slide;
-var img0;
-var img1;
-var img2;
-var img3;
-var img4;
-var img5;
-var img6;
-var img7;
-var img8;
-var img9;
-var img10;
-var Info_Display=false;
-function setup() {
-  var cnv = createCanvas(800, 500);
-  var x = (windowWidth - width) / 2;
-  cnv.position(x,280);
-  Time_slider = createSlider(0, 10, 0);
-  Time_slider.style("width", "790px");
-  Time_slider.input(Update);
-  Slide = Time_slider.value();
-  img0 = loadImage("map0.jpeg");
-  img1 = loadImage("map1.jpg");
-  img2 = loadImage("map2.jpeg");
-  img3 = loadImage("map4.jpeg");
-  img4 = loadImage("map4.jpeg");
-  img5 = loadImage("map5.jpeg");
-  img6 = loadImage("map6.jpeg");
-  img7 = img0;
-  img8 = loadImage("map8.jpeg");
-  img9 = loadImage("map9.jpeg");
-  img10 = loadImage("map10.jpeg");
-  noLoop();
-  createElement(
-    "h4",
-    "1900 &nbsp &nbsp &nbsp &nbsp 1910 &nbsp &nbsp &nbsp &nbsp 1920 &nbsp &nbsp &nbsp &nbsp 1930 &nbsp &nbsp &nbsp &nbsp 1940 &nbsp &nbsp &nbsp &nbsp 1950 &nbsp &nbsp &nbsp &nbsp 1960 &nbsp &nbsp &nbsp &nbsp 1970 &nbsp &nbsp &nbsp &nbsp 1980 &nbsp &nbsp &nbsp &nbsp 1990 &nbsp &nbsp &nbsp &nbsp 2000"
+&nbsp &nbsp 1920 &nbsp &nbsp &nbsp &nbsp 1930 &nbsp &nbsp &nbsp &nbsp 1940 &nbsp &nbsp &nbsp &nbsp 1950 &nbsp &nbsp &nbsp &nbsp 1960 &nbsp &nbsp &nbsp &nbsp 1970 &nbsp &nbsp &nbsp &nbsp 1980 &nbsp &nbsp &nbsp &nbsp 1990 &nbsp &nbsp &nbsp &nbsp 2000"
   );
 }
 function Update() {
