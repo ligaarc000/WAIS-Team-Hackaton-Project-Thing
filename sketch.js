@@ -10,6 +10,7 @@ var img7;
 var img8;
 var img9;
 var img10;
+var Info_Display=false;
 function setup() {
   var cnv = createCanvas(800, 500);
   var x = (windowWidth - width) / 2;
