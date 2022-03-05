@@ -1,14 +1,32 @@
 function mousePressed(){
 console.log('test')
-
-if (Slide==0){
+  if(Info_Display==true){Update();}
+  if (Slide==0){
   //Russo-Japanese War (1904):
   //ellipse(350,225,75,75)
-}
+  if(mouseX<350+37.5 && mouseX>350-37.5 && mouseY<225+37.5 && mouseY>225-37.5){
+  console.log('Russo-Japense War')
+  Info_Display=true
+  rectMode(CORNER)
+  background(239, 228, 213);
+  stroke(5)
+  textSize(25)
+  text("Russo-Japanese War",0,0,width,25);
+  textSize(20)
+  text("Date: February 8th 1904 - September 5th 1905",0,25,width,25);
+  textSize(20)
+  text("Location: Russia, China, Korea and Japan",0,50,width,25);
+  line(0,75,width,75)
+  textSize(15)
+  text("Japan and Russia fought over control of Manchuria and Korea resulting in a Japanese victory which cemented Japan's status as a rising power.",0,100,width,100);
+  
+}}
 if (Slide==1){
   //Fall of the Qing dynasty(1911):
   //ellipse(50,225,85,85)
-  
+  if(mouseX<50+42.5 && mouseX>50-42.5 && mouseY<225+42.5 && mouseY>225-42.5){
+  console.log('Fall of the Qing dynasty')
+}
   //First balkan War (1912): Second balkan war (1913):
   //ellipse(635,222,25,25)  
   
