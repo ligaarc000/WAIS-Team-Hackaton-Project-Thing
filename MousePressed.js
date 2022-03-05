@@ -467,12 +467,53 @@ console.log(' World War II Starts ')
   if (Slide==4){
 //1940: McDonald's Founded
     //ellipse(330,235,20,20)
+if(mouseX<330+10 && mouseX>330-10 && mouseY<235+10 && mouseY>235-10){
+console.log(' McDonalds Founded ')
+  Info_Display = true
+  rectMode(CORNER)
+  background(239, 228, 213);
+  stroke(5)
+  textSize(25)
+  text("McDonald's Founded",0,0,width,25);
+  textSize(20)
+  text(" Date: May 15 1940" ,0,25,width,25);
+  textSize(20)
+  text("Location: San Bernardino, California " ,0,25,width,25);
+  textSize(20)
+  text("Brothers Richard and Maurice McDonald open McDonald’s Barbecue Restaurant, offering BBQ ribs, pork sandwiches, and 23 other menu items. Eight years later, they would restructure their popular local business to focus on hamburgers, milkshakes, and fountain sodas, emphasizing speed, a simple menu, and low prices. In the 1950s, businessman Ray Kroc would buy out the brothers and grow McDonald’s into one of the world’s largest restaurant chains.",0,50,width,25);}
     
 //1945: comunist republics established in soviet occupied territory after the end of World War 2....
     //ellipse(630,195,45,45) 
-    
+if(mouseX<630+22.5 && mouseX>630-22.5 && mouseY<195+22.5 && mouseY>195-22.5){
+console.log(' Comunist states rise in eastern Europe ')
+  Info_Display = true
+  rectMode(CORNER)
+  background(239, 228, 213);
+  stroke(5)
+  textSize(25)
+  text(" Comunist states rise in eastern Europe ",0,0,width,25);
+  textSize(20)
+  text("Date: 1945" ,0,50,width,25);
+  textSize(20)
+  text("Location: Eastern Europe" ,0,75,width,25);
+  textSize(20)
+  text("Comunist republics established in soviet occupied territory after the end of World War 2 ",0,100,width,100);}    
     //1950: Korean war (sometimes thought of as the start of the cold war)
     //ellipse(90,225,35,35) 
+    if(mouseX<90+17.5 && mouseX>90-17.5 && mouseY<225+17.5 && mouseY>225-17.5){
+console.log(' Korean war ')
+  Info_Display = true
+  rectMode(CORNER)
+  background(239, 228, 213);
+  stroke(5)
+  textSize(25)
+  text(" Korean war ",0,0,width,25);
+  textSize(20)
+  text("Date: 1950" ,0,50,width,25);
+  textSize(20)
+  text("Location: Korea" ,0,75,width,25);
+  textSize(20)
+  text("Korean war (sometimes thought of as the start of the cold war) ",0,100,width,100);}
     
 }
   if (Slide==5){
